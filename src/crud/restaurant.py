@@ -1,7 +1,7 @@
 from sqlalchemy.future import select
 from sqlalchemy.orm import joinedload
 
-from src.db.models.user import Restaurant, Dish
+from src.db.models.restaurant import Restaurant, Dish
 from src.db.session import async_session_factory
 
 

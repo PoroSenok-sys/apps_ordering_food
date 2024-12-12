@@ -3,7 +3,7 @@ from sqlalchemy.orm import joinedload
 
 from src.crud.cart import get_cart
 from src.crud.user import update_user_balance
-from src.db.models.user import Order, OrderItem
+from src.db.models.order import Order, OrderItem
 from src.db.session import async_session_factory
 
 
